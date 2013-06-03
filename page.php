@@ -21,6 +21,6 @@
 	else:
 ?>
 
-This is the example page. <a href="?logout">Logout</a>
+This is the example page.
 
 <?php endif; ?>
