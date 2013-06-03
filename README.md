@@ -9,6 +9,9 @@ You can configure the password in the `page.php` file's `Password_Protect` insta
 ```
 $pwp = new Password_Protect(array(
   	'password' => 'test', /* This is the password! ie. `test` */
-		'salt' => 'some random string',
-	)); 
+	'salt' => 'some random string',
+)); 
 ```
+
+Whack `passwd-protect.php` in whichever directory your `page.php` and `login.php` file will be.
+Download here: https://github.com/jonlambert/passwd-protect-quick/archive/master.zip
